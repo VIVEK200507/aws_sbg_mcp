@@ -46,15 +46,15 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("mcp.server")
 
 HOST = os.environ.get("HOST", "0.0.0.0")
-PORT = int(os.environ.get("PORT", "8000"))
+PORT = int(os.environ.get("PORT", "8080"))
 
 SERVER_URL = os.environ.get(
     "MCP_SERVER_URL",
     "https://awssbgmcp-production-0c762792.up.railway.app/mcp"
 ).rstrip("/")
 
-DESCOPE_ISSUER_URL = os.environ.get(
-    "DESCOPE_ISSUER_URL", ""
+DESCOPE_CONFIG_URL = os.environ.get(
+    "DESCOPE_CONFIG_URL", ""
 ).strip().rstrip("/")
 
 UNAVAILABLE = {
@@ -82,8 +82,8 @@ mcp = FastMCP(
 )
 async def protected_resource_metadata(request: Request):
 
-    if not DESCOPE_ISSUER_URL:
-        log.error("DESCOPE_ISSUER_URL is not configured.")
+    if not DESCOPE_CONFIG_URL:
+        log.error("DESCOPE_CONFIG_URL is not configured.")
 
         return JSONResponse(
             {"error": "OAuth issuer configuration is missing."},
@@ -101,7 +101,7 @@ async def protected_resource_metadata(request: Request):
     metadata = {
         "resource": SERVER_URL,
         "authorization_servers": [
-            DESCOPE_ISSUER_URL
+            DESCOPE_CONFIG_URL
         ],
         "bearer_methods_supported": [
             "header"
