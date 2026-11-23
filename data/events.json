@@ -1,0 +1,861 @@
+{
+  "metadata": {
+    "dataset_name": "AWS SBG Events MCP Test Dataset",
+    "record_count": 30,
+    "official_note": "The live events page currently marks dates as revealing soon. Only event concepts/titles explicitly shown on the site are represented as official concepts; generated dates, IDs, venues, capacities, speakers, and registration states below are synthetic test data.",
+    "date_policy": "All generated event dates are explicitly marked synthetic. Do not publish them as real event schedules.",
+    "generated_on": "2026-11-20"
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "Getting Started with AWS",
+      "event_type": "workshop",
+      "description": "Introductory session covering cloud concepts, S3, EC2, IAM, and account setup.",
+      "date": "2026-12-01",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 37,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-002",
+      "title": "AWS Cloud Practitioner Bootcamp",
+      "event_type": "bootcamp",
+      "description": "Three-day learning plan covering core AWS services, IAM, S3, EC2, and Lambda.",
+      "date": "2026-12-06",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Bootcamp"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 44,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-003",
+      "title": "Build Day: Serverless Chat App",
+      "event_type": "hackathon",
+      "description": "Build a real-time chat application using API Gateway, Lambda, and DynamoDB.",
+      "date": "2026-12-11",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hackathon"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 51,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-004",
+      "title": "Cloud Resume Challenge Sprint",
+      "event_type": "challenge",
+      "description": "Build and deploy a cloud-hosted portfolio with CI/CD and infrastructure as code.",
+      "date": "2026-12-16",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Challenge"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 58,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-005",
+      "title": "AWS re:Invent Watch Party",
+      "event_type": "community",
+      "description": "Watch keynotes together and discuss new AWS announcements and project ideas.",
+      "date": "2026-12-21",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "all_levels",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Community"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 65,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-006",
+      "title": "Cloud Kickstart: Getting Started with AWS",
+      "event_type": "workshop",
+      "description": "A practical introduction to AWS cloud concepts and core services.",
+      "date": "2026-12-26",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 72,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-007",
+      "title": "Build-Verse",
+      "event_type": "hackathon",
+      "description": "A team-based innovation event focused on building technology solutions and presenting prototypes.",
+      "date": "2026-12-31",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "all_levels",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hackathon"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 79,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-008",
+      "title": "SwagDrop Quiz Event",
+      "event_type": "competition",
+      "description": "A community quiz activity covering AWS, cloud fundamentals, and developer concepts.",
+      "date": "2027-01-05",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Competition"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 86,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-009",
+      "title": "Women in Cloud: Build Together",
+      "event_type": "community",
+      "description": "A welcoming technical session encouraging women students to explore cloud technologies and collaborative projects.",
+      "date": "2027-01-10",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Community"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 93,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-010",
+      "title": "AWS Lambda Deep Dive",
+      "event_type": "workshop",
+      "description": "Explore functions, triggers, permissions, logging, and event-driven application patterns.",
+      "date": "2027-01-15",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 100,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-011",
+      "title": "Deploy Your First Website on S3",
+      "event_type": "hands_on_lab",
+      "description": "Host a static website and understand bucket configuration and public access considerations.",
+      "date": "2027-01-20",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hands On Lab"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 36,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-012",
+      "title": "Introduction to IAM",
+      "event_type": "workshop",
+      "description": "Learn users, roles, policies, least privilege, and safe credential practices.",
+      "date": "2027-01-25",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 43,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-013",
+      "title": "DynamoDB Design Lab",
+      "event_type": "hands_on_lab",
+      "description": "Practice partition keys, sort keys, access patterns, and basic application integration.",
+      "date": "2027-01-30",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hands On Lab"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 50,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-014",
+      "title": "Build an AI Assistant with Bedrock",
+      "event_type": "workshop",
+      "description": "Explore foundation-model concepts and prototype a simple generative AI application.",
+      "date": "2027-02-04",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 57,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-015",
+      "title": "Cloud Security Fundamentals",
+      "event_type": "workshop",
+      "description": "Review shared responsibility, identity controls, logging, and common configuration risks.",
+      "date": "2027-02-09",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 64,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-016",
+      "title": "Docker to Amazon ECS",
+      "event_type": "hands_on_lab",
+      "description": "Containerize a small application and explore a managed container deployment workflow.",
+      "date": "2027-02-14",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hands On Lab"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 71,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-017",
+      "title": "AWS Networking Essentials",
+      "event_type": "workshop",
+      "description": "Explore VPCs, subnets, route tables, security groups, and network boundaries.",
+      "date": "2027-02-19",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 78,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-018",
+      "title": "Serverless API Challenge",
+      "event_type": "challenge",
+      "description": "Create a documented REST API using API Gateway and Lambda.",
+      "date": "2027-02-24",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Challenge"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 85,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-019",
+      "title": "Git and GitHub for Builders",
+      "event_type": "workshop",
+      "description": "Practice branching, commits, pull requests, issues, and collaborative repository workflows.",
+      "date": "2027-03-01",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 92,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-020",
+      "title": "Cloud Project Demo Day",
+      "event_type": "showcase",
+      "description": "Present working projects, architecture decisions, lessons learned, and future improvements.",
+      "date": "2027-03-06",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "all_levels",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Showcase"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 99,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-021",
+      "title": "AWS Certification Study Jam",
+      "event_type": "study_jam",
+      "description": "Peer study session for cloud certification topics and practice questions.",
+      "date": "2027-03-11",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Study Jam"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 35,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-022",
+      "title": "Monitoring with CloudWatch",
+      "event_type": "hands_on_lab",
+      "description": "Create logs, metrics, dashboards, and alarms for a sample application.",
+      "date": "2027-03-16",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hands On Lab"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 42,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-023",
+      "title": "Build a Data Pipeline",
+      "event_type": "workshop",
+      "description": "Explore ingestion, transformation, storage, and visualization in a sample data workflow.",
+      "date": "2027-03-21",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 49,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-024",
+      "title": "Open Source Contribution Day",
+      "event_type": "community",
+      "description": "Work on beginner-friendly issues, documentation, and pull requests in public repositories.",
+      "date": "2027-03-26",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "all_levels",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Community"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 56,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-025",
+      "title": "Cloud Architecture Review",
+      "event_type": "talk",
+      "description": "Discuss reliability, security, performance, cost optimization, and operational excellence.",
+      "date": "2027-03-31",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "advanced",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Talk"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 63,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-026",
+      "title": "Introduction to Amazon EC2",
+      "event_type": "workshop",
+      "description": "Launch and connect to a virtual machine while learning basic compute concepts.",
+      "date": "2027-04-05",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 70,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-027",
+      "title": "AWS Amplify Full-Stack Lab",
+      "event_type": "hands_on_lab",
+      "description": "Connect a frontend application to cloud hosting and backend capabilities.",
+      "date": "2027-04-10",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Hands On Lab"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 77,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-028",
+      "title": "Build a Student Portfolio",
+      "event_type": "challenge",
+      "description": "Create a portfolio site and publish it with a repeatable deployment workflow.",
+      "date": "2027-04-15",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Online (meeting link to be announced)",
+      "delivery_mode": "virtual",
+      "skill_level": "beginner",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Challenge"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 84,
+      "registration_open": false,
+      "registration_url": null,
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-029",
+      "title": "API Security with Cognito",
+      "event_type": "workshop",
+      "description": "Explore authentication and authorization patterns for application APIs.",
+      "date": "2027-04-20",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "intermediate",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Workshop"
+      ],
+      "technologies": [
+        "AWS",
+        "GitHub"
+      ],
+      "capacity": 91,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    },
+    {
+      "id": "evt-030",
+      "title": "Community Networking Meetup",
+      "event_type": "networking",
+      "description": "Meet fellow builders, exchange project ideas, and find collaborators.",
+      "date": "2027-04-25",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "timezone": "Asia/Kolkata",
+      "venue": "Tulas University, Dehradun",
+      "delivery_mode": "on_campus",
+      "skill_level": "all_levels",
+      "topics": [
+        "AWS",
+        "Cloud Computing",
+        "Networking"
+      ],
+      "technologies": [
+        "AWS",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "capacity": 98,
+      "registration_open": true,
+      "registration_url": "https://awstulas.org/events",
+      "status": "synthetic_scheduled_for_testing",
+      "data_origin": "synthetic_test_record",
+      "is_real_event_date": false
+    }
+  ]
+}

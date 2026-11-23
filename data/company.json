@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "dataset_name": "AWS Tulas Website MCP Test Dataset",
+    "version": "1.0.0",
+    "generated_on": "2026-11-20",
+    "website": "https://awstulas.org/",
+    "data_policy": "Official website facts are marked official; expanded examples are synthetic test data.",
+    "important_note": "This dataset is for MCP development and testing. Do not treat synthetic event dates, contacts, prices, people, metrics, or commitments as official."
+  },
+  "company": {
+    "id": "aws-sbg-tulas",
+    "name": "AWS Student Builder Group",
+    "short_name": "AWS SBG",
+    "parent_institution": "Tulas University",
+    "description": "A student-led technical community at Tulas University, Dehradun, focused on practical cloud learning, building real-world applications, collaboration, hackathons, and career growth.",
+    "tagline": "Learn. Build. Share. Grow.",
+    "website": "https://awstulas.org/",
+    "location": {
+      "campus": "Tulas University",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India"
+    },
+    "contact": {
+      "public_email": "awssbg@tulas.edu.in",
+      "website_contact_page": "https://awstulas.org/"
+    },
+    "community": {
+      "founded_or_launch_year": 2026,
+      "wings_count_displayed": 6,
+      "community_type": "Student-led technical community",
+      "membership_note": "The homepage states that 50+ students have already joined. Other live counters currently display zero and should not be interpreted as verified membership totals.",
+      "open_to": [
+        "Tulas University students",
+        "External students",
+        "Developers",
+        "Industry professionals",
+        "Technology enthusiasts"
+      ]
+    },
+    "mission": "Make cloud computing accessible, practical, and exciting through hands-on learning and collaborative building.",
+    "vision": "Help students turn curiosity into deployed projects, stronger portfolios, and technology careers.",
+    "values": [
+      "Learn by building",
+      "Grow together",
+      "Create real projects",
+      "Share knowledge",
+      "Community collaboration",
+      "Practical experimentation"
+    ],
+    "official_links": {
+      "about": "https://awstulas.org/about",
+      "events": "https://awstulas.org/events",
+      "learning_hub": "https://awstulas.org/learning-hub",
+      "meetup": "https://www.meetup.com/",
+      "whatsapp": "https://chat.whatsapp.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "instagram": "https://www.instagram.com/",
+      "aws_builder_center": "https://builder.aws.com/",
+      "aws_skill_builder": "https://skillbuilder.aws/"
+    },
+    "pillars": [
+      {
+        "id": "pillar-cloud-learning",
+        "name": "Cloud Learning",
+        "description": "Hands-on workshops using AWS services such as EC2, Lambda, S3, DynamoDB, API Gateway, Amplify, and Bedrock."
+      },
+      {
+        "id": "pillar-build-projects",
+        "name": "Build Projects",
+        "description": "Encourage members to deploy working cloud applications rather than only watching tutorials."
+      },
+      {
+        "id": "pillar-community",
+        "name": "Community",
+        "description": "Peer learning, mentorship, code reviews, study groups, and collaborative building."
+      },
+      {
+        "id": "pillar-hackathons",
+        "name": "Hackathons",
+        "description": "AWS GameDays, hackathons, build sprints, and innovation challenges."
+      },
+      {
+        "id": "pillar-certifications",
+        "name": "Certifications",
+        "description": "Preparation sessions, study plans, practice exams, and AWS Skill Builder resources."
+      },
+      {
+        "id": "pillar-career-growth",
+        "name": "Career Growth",
+        "description": "Networking with AWS professionals, industry mentors, alumni, and student builders."
+      }
+    ],
+    "builder_journey": [
+      {
+        "step": 1,
+        "title": "Join SBG",
+        "description": "Become part of the builder community."
+      },
+      {
+        "step": 2,
+        "title": "AWS Fundamentals",
+        "description": "Learn core services, IAM, and cloud concepts."
+      },
+      {
+        "step": 3,
+        "title": "Hands-on Workshops",
+        "description": "Build in guided sandbox environments."
+      },
+      {
+        "step": 4,
+        "title": "Cloud Projects",
+        "description": "Deploy real applications on AWS."
+      },
+      {
+        "step": 5,
+        "title": "Hackathons",
+        "description": "Collaborate, build quickly, and compete."
+      },
+      {
+        "step": 6,
+        "title": "AWS Certifications",
+        "description": "Prepare for industry-recognized credentials."
+      },
+      {
+        "step": 7,
+        "title": "Leadership",
+        "description": "Mentor, organize, and lead community initiatives."
+      },
+      {
+        "step": 8,
+        "title": "Internships & Careers",
+        "description": "Use practical experience to pursue career opportunities."
+      }
+    ],
+    "source_status": "official_website_summary",
+    "last_checked": "2026-11-20"
+  }
+}

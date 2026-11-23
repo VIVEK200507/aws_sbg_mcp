@@ -1,0 +1,660 @@
+{
+  "metadata": {
+    "dataset_name": "AWS SBG Services Test Dataset",
+    "record_count": 20,
+    "official_note": "The website describes learning areas and project themes. The service records below expand those themes into synthetic MCP-friendly catalogue entries; they are not paid services or guaranteed offerings.",
+    "generated_on": "2026-11-20"
+  },
+  "services": [
+    {
+      "id": "svc-web-apps",
+      "name": "Web Applications",
+      "description": "Build scalable full-stack web applications, with frontend hosting, backend APIs, authentication, storage, and deployment workflows.",
+      "category": "web-development",
+      "level": "beginner_to_advanced",
+      "technologies": [
+        "AWS Amplify",
+        "Amazon S3",
+        "Amazon CloudFront",
+        "AWS Lambda"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand web applications fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-ai-ml",
+      "name": "AI & Machine Learning",
+      "description": "Explore intelligent application features such as chatbots, computer vision, recommendation systems, and predictive analytics.",
+      "category": "ai-ml",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon Bedrock",
+        "Amazon SageMaker",
+        "AWS Lambda",
+        "Amazon S3"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand ai & machine learning fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-analytics",
+      "name": "Real-Time Analytics",
+      "description": "Learn event ingestion, stream processing, data pipelines, and live dashboards for analytics use cases.",
+      "category": "data-analytics",
+      "level": "intermediate_to_advanced",
+      "technologies": [
+        "Amazon Kinesis",
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon CloudWatch"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand real-time analytics fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-mobile-backend",
+      "name": "Mobile Backends",
+      "description": "Design backend infrastructure for mobile applications, including APIs, authentication, data storage, and notifications.",
+      "category": "backend",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon API Gateway",
+        "AWS Lambda",
+        "Amazon Cognito",
+        "Amazon DynamoDB"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand mobile backends fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-cloud-security",
+      "name": "Cloud Security",
+      "description": "Understand identity, permissions, secure configurations, monitoring, and foundational cloud security practices.",
+      "category": "security",
+      "level": "beginner_to_advanced",
+      "technologies": [
+        "AWS IAM",
+        "AWS CloudTrail",
+        "Amazon GuardDuty",
+        "AWS Config"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud security fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-devops",
+      "name": "DevOps & Infrastructure",
+      "description": "Automate builds and deployments using CI/CD, containers, infrastructure as code, and monitoring.",
+      "category": "devops",
+      "level": "intermediate",
+      "technologies": [
+        "AWS CodePipeline",
+        "AWS CodeBuild",
+        "Amazon ECS",
+        "AWS CloudFormation"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand devops & infrastructure fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-cloud-bootcamp",
+      "name": "Cloud Bootcamp",
+      "description": "A guided learning format covering cloud concepts and foundational AWS services through practical exercises.",
+      "category": "training",
+      "level": "beginner",
+      "technologies": [
+        "Amazon EC2",
+        "Amazon S3",
+        "AWS IAM"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud bootcamp fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic computer literacy"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-cert-prep",
+      "name": "Certification Preparation",
+      "description": "Study plans, exam-domain orientation, practice questions, and peer preparation for AWS certifications.",
+      "category": "certification",
+      "level": "beginner_to_advanced",
+      "technologies": [
+        "AWS Skill Builder",
+        "AWS Educate"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand certification preparation fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-hackathons",
+      "name": "Hackathons & Build Sprints",
+      "description": "Collaborative innovation challenges where teams prototype solutions to practical problems.",
+      "category": "community",
+      "level": "all_levels",
+      "technologies": [
+        "AWS services selected by team"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand hackathons & build sprints fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-mentorship",
+      "name": "Peer Mentorship",
+      "description": "Community-led support for project planning, cloud learning paths, code reviews, and technical problem solving.",
+      "category": "mentorship",
+      "level": "all_levels",
+      "technologies": [
+        "GitHub",
+        "AWS Skill Builder"
+      ],
+      "delivery_modes": [
+        "peer_session",
+        "community_activity"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand peer mentorship fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-project-reviews",
+      "name": "Project Reviews",
+      "description": "Structured peer feedback on architecture, code quality, documentation, deployment, and project presentation.",
+      "category": "project-support",
+      "level": "intermediate",
+      "technologies": [
+        "GitHub",
+        "AWS Architecture Center"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand project reviews fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-serverless",
+      "name": "Serverless Application Labs",
+      "description": "Build event-driven applications and APIs without managing traditional servers.",
+      "category": "cloud-labs",
+      "level": "intermediate",
+      "technologies": [
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "Amazon DynamoDB"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand serverless application labs fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-storage",
+      "name": "Cloud Storage Labs",
+      "description": "Practice object storage, access policies, static hosting, lifecycle concepts, and file workflows.",
+      "category": "cloud-labs",
+      "level": "beginner",
+      "technologies": [
+        "Amazon S3"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud storage labs fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic computer literacy"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-compute",
+      "name": "Cloud Compute Labs",
+      "description": "Explore virtual machines, deployment basics, scaling concepts, and compute cost awareness.",
+      "category": "cloud-labs",
+      "level": "beginner",
+      "technologies": [
+        "Amazon EC2"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud compute labs fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic computer literacy"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-containers",
+      "name": "Container Workshops",
+      "description": "Learn container fundamentals and deploy containerized applications using managed AWS services.",
+      "category": "cloud-labs",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon ECS",
+        "Amazon EKS",
+        "Amazon ECR"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand container workshops fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-database",
+      "name": "Cloud Database Workshops",
+      "description": "Compare relational and NoSQL database patterns and connect applications to managed databases.",
+      "category": "cloud-labs",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon RDS",
+        "Amazon DynamoDB"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud database workshops fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-api",
+      "name": "API Development Labs",
+      "description": "Design, document, secure, and deploy REST APIs with cloud-native components.",
+      "category": "backend",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon API Gateway",
+        "AWS Lambda"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand api development labs fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-monitoring",
+      "name": "Monitoring & Observability",
+      "description": "Understand logs, metrics, alarms, and troubleshooting for deployed cloud applications.",
+      "category": "devops",
+      "level": "intermediate",
+      "technologies": [
+        "Amazon CloudWatch",
+        "AWS X-Ray"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand monitoring & observability fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-portfolio",
+      "name": "Cloud Portfolio Projects",
+      "description": "Create portfolio-ready projects with architecture diagrams, documentation, and live deployment.",
+      "category": "career-growth",
+      "level": "beginner_to_advanced",
+      "technologies": [
+        "AWS Amplify",
+        "Amazon S3",
+        "Amazon CloudFront"
+      ],
+      "delivery_modes": [
+        "peer_session",
+        "community_activity"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand cloud portfolio projects fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    },
+    {
+      "id": "svc-open-source",
+      "name": "Open-Source Collaboration",
+      "description": "Practice Git workflows, issue tracking, documentation, pull requests, and collaborative development.",
+      "category": "community",
+      "level": "all_levels",
+      "technologies": [
+        "GitHub"
+      ],
+      "delivery_modes": [
+        "workshop",
+        "guided_lab",
+        "community_project"
+      ],
+      "audience": [
+        "students",
+        "beginner_builders",
+        "developers"
+      ],
+      "outcomes": [
+        "Understand open-source collaboration fundamentals",
+        "Complete a practical exercise or project",
+        "Document learning and implementation decisions"
+      ],
+      "prerequisites": [
+        "Basic programming or cloud concepts"
+      ],
+      "is_official_paid_service": false,
+      "record_type": "synthetic_expansion_of_website_learning_theme",
+      "status": "example_catalogue_record"
+    }
+  ]
+}
